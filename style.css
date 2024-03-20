@@ -34,31 +34,70 @@ body {
   margin-top: -10px;
 }
 
-.container-form{
-    width: 100%;
+.container-form {
+  width: 100%;
 }
 
 .form {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: space-around;
   border-radius: 6px;
-  padding: 1.2rem;
+  padding-top: 1.2rem;
   background-image: linear-gradient(#5e1d69, #240d28);
 }
 
-.form-input{
-    color: #75758b;
-    border-radius: 6px;
-    font-size: 1.2rem;
-    border: 0;
-    padding: .9rem;
-    width: 95%;
-    height: 5px;
-    margin: 13px;
+.form-input {
+  color: #75758b;
+  border-radius: 6px;
+  font-size: 1.2rem;
+  border: 0;
+  padding: 0.9rem;
+  width: 65%;
+  height: 5px;
+  margin: 13px 99px;
 }
 
-.form-input:focus{
-    outline: none;
+.form-input:focus {
+  outline: none;
+}
+
+.categorias-games {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 1.2rem;
+}
+
+.categoria-card {
+  text-align: center;
+  font-size: 1.25rem;
+  padding-bottom: 1.3rem;
+  border: 10px solid #2637da;
+  border-radius: 4px;
+  background-image: linear-gradient(#3f61ef, #6ec6fc);
+  width: 25%;
+}
+
+.categoria-image {
+}
+
+.btns {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 60%;
+  margin: auto;
+}
+
+button {
+  border-radius: 3px;
+  color: #ffffff;
+  font-size: 1rem;
+  background-color: #1d0c20;
+  border: none;
+  width: 100%;
+  padding: 1rem 1.8rem;
+  cursor: pointer;
+  /* margin-inline: 57px; */
 }
