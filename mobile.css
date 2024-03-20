@@ -8,22 +8,22 @@
     }
 
     .container-text{
-    max-width: 300px;
-    margin-left: 30px;
+        max-width: 18.75rem;
+        margin-left: 1.8rem;
     }
 
     .text-form{
-        max-width: 210px;
-        margin-left: 60px;
+        max-width: 13.12rem;
+        margin-left: 3.75rem;
     }
 
     .container-form{
         width: 95%;
-        margin-left: 8px;
+        margin-left: .5rem;
     }
 
     .form-input {
-        margin: 13px 50px;
+        margin: .8125rem 3.125rem;
       }
     
     .categorias-games {
@@ -33,10 +33,10 @@
 
     .categoria-card {
         width: 60%;
-        margin: 9px
+        margin: .56rem
       }
 
     footer{
-        margin-top: 10px;
+        margin-top: .375rem;
     }
 }
