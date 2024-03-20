@@ -79,9 +79,6 @@ body {
   width: 25%;
 }
 
-.categoria-image {
-}
-
 .btns {
   display: flex;
   justify-content: space-around;
@@ -100,4 +97,11 @@ button {
   padding: 1rem 1.8rem;
   cursor: pointer;
   /* margin-inline: 57px; */
+}
+
+
+footer{
+  font-size: .8rem;
+  text-align: center;
+  margin-top: 4px;
 }
