@@ -7,28 +7,30 @@
         width: 60%;
     }
 
-    .container-text{
-        max-width: 18.75rem;
-        margin-left: 1.8rem;
+    .header{
+        font-size: 1.5rem;
     }
-
-    .text-form{
-        max-width: 13.12rem;
-        margin-left: 3.75rem;
-    }
-
     .container-form{
         width: 95%;
         margin-left: .5rem;
     }
 
+    .form {
+        box-sizing: border-box;
+      }
+
     .form-input {
-        margin: .8125rem 3.125rem;
+        font-size: 1rem;
       }
     
     .categorias-games {
         flex-direction: column;
         padding: 1.2rem;
+    }
+
+    .categoria-imagem{
+        width: 80%;
+        height: 80%;
     }
 
     .categoria-card {

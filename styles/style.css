@@ -24,14 +24,13 @@ body {
 .text-form {
   text-align: center;
   font-weight: 400;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-bottom: .625rem;
 }
 
 .text-form {
   font-size: 1.5rem;
   font-weight: 500;
-  margin-top: -10px;
+  margin-top: -.625rem;
 }
 
 .container-form {
@@ -42,6 +41,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  align-items: center;
   border-radius: 6px;
   padding-top: 1.2rem;
   background-image: linear-gradient(#5e1d69, #240d28);
@@ -52,10 +52,10 @@ body {
   border-radius: 6px;
   font-size: 1.2rem;
   border: 0;
-  padding: 0.9rem;
+  padding: .9rem;
   width: 65%;
   height: 5px;
-  margin: 13px 99px;
+  margin: .8125rem;
 }
 
 .form-input:focus {
@@ -70,6 +70,10 @@ body {
 }
 
 .categoria-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
   text-align: center;
   font-size: 1.25rem;
   padding-bottom: 1.3rem;
@@ -79,24 +83,19 @@ body {
   width: 25%;
 }
 
-.btns {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  width: 60%;
-  margin: auto;
+.categoria-imagem{
+  text-align: center;
 }
 
-button {
+.btns-botao {
+  width: 85%;
   border-radius: 3px;
   color: #ffffff;
   font-size: 1rem;
   background-color: #1d0c20;
   border: none;
-  width: 100%;
-  padding: 1rem 1.8rem;
+  padding: .9rem 2rem;
   cursor: pointer;
-  /* margin-inline: 57px; */
 }
 
 
